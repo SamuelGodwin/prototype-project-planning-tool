@@ -1,0 +1,18 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'jacoco'
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.21'
+	  compile group: 'org.jdesktop', name: 'appframework', version: '1.0.3'
+    testCompile 'junit:junit:4.12'
+    testCompile "com.athaydes.automaton:Automaton:1.3.2"
+    testCompile 'org.hamcrest:hamcrest-all:1.3'
+}
+
+mainClassName = "Driver"
