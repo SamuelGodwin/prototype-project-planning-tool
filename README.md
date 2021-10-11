@@ -7,6 +7,8 @@ Henry Valeyre
 
 #
 
+Run Driver.java.
+
 For our application, we made a Kanban Board at the start and thought about some tests in advance. We thought, initially, that the application would need a login and that we had to manually set people to a task, at a specific time and state when they finish this task. We later realized that we were slightly on the wrong track and that everything should be set-up automatically. The aforementioned factors would instead be calculated in our Work Schedule. We took this on board and pursued development accordingly.
 
 # Synopsis
